@@ -117,7 +117,7 @@ const Contact = () => {
                           type="email" 
                           value={formData.email}
                           onChange={(e) => setFormData({...formData, email: e.target.value})}
-                          placeholder="john@example.com"
+                          placeholder="nayyabadnan13@gmail.com"
                           className="w-full px-6 py-4 bg-white rounded-2xl border-transparent focus:border-brand-navy focus:ring-0 transition-all outline-none"
                         />
                       </div>

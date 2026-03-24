@@ -12,7 +12,8 @@ const Footer = () => {
           <div className="flex items-center space-x-8">
             <a href="#home" className="text-sm font-medium text-brand-gray hover:text-brand-navy transition-colors">Home</a>
             <a href="#about" className="text-sm font-medium text-brand-gray hover:text-brand-navy transition-colors">About</a>
-            <a href="#projects" className="text-sm font-medium text-brand-gray hover:text-brand-navy transition-colors">Projects</a>
+            <a href="#gallery" className="text-sm font-medium text-brand-gray hover:text-brand-navy transition-colors">Gallery</a>
+            <a href="#services" className="text-sm font-medium text-brand-gray hover:text-brand-navy transition-colors">Services</a>
             <a href="#contact" className="text-sm font-medium text-brand-gray hover:text-brand-navy transition-colors">Contact</a>
           </div>
 

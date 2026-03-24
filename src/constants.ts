@@ -1,32 +1,62 @@
 import { Project, Experience, Testimonial, Skill } from './types';
 
-export const PROJECTS: Project[] = [
+export const GALLERY_THUMBNAILS = [
   {
-    id: '1',
-    title: 'YouTube Video Editing',
-    category: 'YouTube',
-    description: 'Engaging long-form content with smooth cuts and storytelling.',
-    image: 'https://i.ibb.co/rKc692zm/ededed.jpg',
-    tools: ['Premiere Pro', 'After Effects'],
-    results: 'Helped client reach 100k views on their latest vlog.'
+    id: 't1',
+    title: 'Real Estate',
+    image: 'https://i.ibb.co/SgHcjLz/real-estate.jpg',
   },
   {
-    id: '2',
-    title: 'Social Media Edits',
-    category: 'Social Media',
-    description: 'Fast-paced edits for Reels, TikTok, and Shorts.',
-    image: 'https://i.ibb.co/js0vXDn/nvfv.webp',
-    tools: ['CapCut', 'Premiere Pro'],
-    results: 'Increased engagement by 40% across social platforms.'
+    id: 't2',
+    title: 'Client Project',
+    image: 'https://i.ibb.co/C3WTtnnQ/client-thumnail.jpg',
   },
   {
-    id: '3',
-    title: 'Gaming Highlights',
-    category: 'Gaming',
-    description: 'High-energy edits with effects, transitions, and sync.',
-    image: 'https://i.ibb.co/Y4p82yYf/dre.jpg',
-    tools: ['After Effects', 'Premiere Pro'],
-    results: 'Created viral montages with professional sound design.'
+    id: 't3',
+    title: 'Roblox Gaming',
+    image: 'https://i.ibb.co/dsRDrqTv/roblox-thumnail.jpg',
+  },
+  {
+    id: 't4',
+    title: 'India Got Latent',
+    image: 'https://i.ibb.co/0yfjhJGw/india-got-latent.jpg',
+  },
+  {
+    id: 't5',
+    title: 'Cooking Show',
+    image: 'https://i.ibb.co/5XB2RrqC/cooking-thumnail-new.jpg',
+  },
+  {
+    id: 't6',
+    title: 'Travel Vlog',
+    image: 'https://i.ibb.co/6MVsc24/travel-vlog-thumbnail-design-template.jpg',
+  }
+];
+
+export const GALLERY_VIDEOS = [
+  {
+    id: 'v1',
+    title: 'Featured Portfolio Video',
+    thumbnail: 'https://i.ibb.co/ynpHQ5tG/pngtree-flat-clapperboard-video-icon-black-and-white-striped-top-with-simple-png-image-17345655.webp',
+    videoUrl: 'https://drive.google.com/file/d/1P1El0v7bUNw0-f65C2h5_PabO2a76QJr/preview',
+  },
+  {
+    id: 'v2',
+    title: 'YouTube Video Edit',
+    thumbnail: 'https://i.ibb.co/ynpHQ5tG/pngtree-flat-clapperboard-video-icon-black-and-white-striped-top-with-simple-png-image-17345655.webp',
+    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+  },
+  {
+    id: 'v3',
+    title: 'Real Estate Ad',
+    thumbnail: 'https://i.ibb.co/ynpHQ5tG/pngtree-flat-clapperboard-video-icon-black-and-white-striped-top-with-simple-png-image-17345655.webp',
+    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+  },
+  {
+    id: 'v4',
+    title: 'Gaming Montage',
+    thumbnail: 'https://i.ibb.co/ynpHQ5tG/pngtree-flat-clapperboard-video-icon-black-and-white-striped-top-with-simple-png-image-17345655.webp',
+    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
   }
 ];
 
